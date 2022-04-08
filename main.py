@@ -5,7 +5,7 @@
 print("Welcome to the Rollercoaster")
 height = int(input("What is your height in cms?\n"))
 
-if height > 180:
+if height >= 120:
   print("You can ride the rollercoaster")
 else:
   print("Sorry, You cannot ride the rollercoaster")
